@@ -215,16 +215,17 @@ a {
 .footer_img {
   background: center;
   background-image: url(/assets/footer_img.jpg);
-  background-position 
+  background-position: top;
+  background-size: cover;
+  background-attachment: scroll;
   padding: 2px auto;
   height: 200px;
 }
 
 footer nav {
-    
-    background-color: #F9E7DC;
+  background-color: #f9e7dc;
 }
 
 strong {
-    font-weight: bold;
+  font-weight: bold;
 }
