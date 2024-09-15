@@ -1,0 +1,231 @@
+/* CSS Reset */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend {
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  /* border: 0; */
+}
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+body {
+  background: white;
+  line-height: 1;
+  color: black;
+}
+ol,
+ul {
+  list-style: none;
+}
+/* tables still need cellspacing="0" in the markup */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+caption,
+th,
+td {
+  font-weight: normal;
+  text-align: left;
+}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+}
+blockquote,
+q {
+  quotes: "" "";
+}
+
+/* General Styles*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  /* border: 1px solid gray; */
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* NAV */
+
+h1 {
+  font-family: "Chelsea Market", cursive;
+  padding: 8rem;
+  text-align: center;
+  font-size: 6rem;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+header {
+  margin: 0 auto;
+}
+
+nav {
+  margin: 0 auto;
+  padding: 4% 5%;
+  /* display: inline-block; */
+  width: 100%;
+}
+
+a {
+  padding: 3% 2%;
+  border-radius: 15%;
+  font-size: 14px;
+  margin: 0 9%;
+}
+
+.plan {
+  background-color: #ff764e;
+  color: whitesmoke;
+}
+
+.learn {
+  background-color: #5ed3eb;
+  color: whitesmoke;
+}
+
+.get {
+  background-color: #ffcd69;
+  color: whitesmoke;
+}
+
+.top_img {
+  display: inline-block;
+  border-radius: 100%;
+  width: 23%;
+  height: 10%;
+}
+
+.paragraph {
+  display: inline-block;
+  bottom: 32%;
+  left: 30%;
+  position: absolute;
+}
+
+.p1,
+.p2 {
+  padding: 3rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.icon1,
+.icon2 {
+  width: 10%;
+  left: 40%;
+  margin-left: 50%;
+}
+
+#about {
+  padding: 5rem;
+  background-color: #ddb9a3;
+}
+
+#about p {
+  padding: 3rem;
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+#icon p {
+  padding: 4rem;
+  text-align: center;
+  font-size: 2rem;
+  width: 40%;
+  margin-left: 35%;
+}
+
+.footer_img {
+  background: center;
+  background-image: url(/assets/footer_img.jpg);
+  background-position: top;
+  background-size: cover;
+  background-attachment: scroll;
+  padding: 2px auto;
+  height: 200px;
+}
+
+footer nav {
+  background-color: #f9e7dc;
+}
+
+strong {
+  font-weight: bold;
+}
